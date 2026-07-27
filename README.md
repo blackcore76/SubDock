@@ -1,64 +1,61 @@
 # SubDock
 
-![SubDock](hero.png)
+**English · [한국어](README.ko.md)**
 
-**서브 모니터만으로 앱을 전환하고, 창을 그 화면으로 불러오는 맥 유틸리티**
+![SubDock](hero-en.png)
 
-메인 모니터가 게임기(PS5 등 외부 입력)나 전체화면 작업으로 점유돼 있을 때,
-서브 모니터 가장자리에서 마우스만으로 앱을 전환하고 창까지 서브 화면으로 소환합니다.
+**A menu-bar utility that switches apps and pulls their windows onto your second monitor — using the sub monitor alone.**
 
-<!-- 스크린샷/GIF는 여기에 추가 -->
+When your main display is occupied by a game console (PS5 and other HDMI inputs) or a full-screen app, SubDock lets you switch apps and summon their windows to the sub monitor with just your mouse — no need to look at the main screen.
 
 ---
 
-## 이런 분께 딱
+## Who it's for
 
-- 🎮 메인 모니터에 **게임기·셋톱박스 등 외부 입력**을 연결해 쓰는데, 서브 모니터는 맥으로 쓰는 분
-- 🖥️ 메인에서 **전체화면 작업/영상**을 띄워두고 서브 모니터만 따로 조작하고 싶은 분
-- 🖱️ 단축키 외우기보다 **마우스로 스윽 올려 클릭**하는 게 편한 분
-- 📌 macOS 기본 Dock이 **메인 모니터에만 떠서** 불편했던 분
+- 🎮 You run a **game console or set-top box on your main display** while the Mac shows on the sub monitor
+- 🖥️ Your main screen is busy with **full-screen work or video**, and you want to control the sub monitor separately
+- 🖱️ You'd rather **hover and click with the mouse** than memorize keyboard shortcuts
+- 📌 The macOS Dock only appears on **one display**, which got in your way
 
-> Cmd+Tab이나 Raycast 같은 키보드 도구와 달리, SubDock은 **전환 UI가 서브 모니터에 뜨고**,
-> 클릭한 앱의 **창을 서브 모니터로 직접 이동**시킵니다.
+> Unlike keyboard tools such as Cmd+Tab or Raycast, SubDock shows its **switcher on the sub monitor** and **moves the clicked app's window onto that monitor** — most tools only switch apps, leaving windows where they were.
 
-## 주요 기능
+## Features
 
-- 서브 모니터(또는 단일 화면) 오른쪽 가장자리에 **항상 보이는 핸들 탭** → 마우스 올리면 앱 목록이 펼쳐짐
-- 클릭하면 앱 전환 + **최소화 복원** + **창을 해당 모니터로 이동**
-- 메뉴바에서 **표시할 앱 자유롭게 설정** (고정/숨김/추가, 전체 앱 보기 토글)
-- 아이콘에 마우스 올리면 확대되어 어떤 앱인지 한눈에
-- **인텔 + 애플 실리콘** 모두 지원 (유니버설)
-- 메뉴바에서 조용히 실행, 로그인 시 자동 시작
+- A **handle** on the edge of your sub monitor (or single display) → hover to reveal the app list
+- Click an app to switch to it + **restore if minimized** + **move its window onto that monitor**
+- Choose which apps to show from the menu bar (pin / hide / add, or show all running apps)
+- Pick the **handle style** (colored tab / transparent full-edge hover) and **position** (right / left)
+- **Universal** — works on both Intel and Apple Silicon
+- Runs quietly from the menu bar, starts at login
 
-## 설치 방법
+## Install
 
-1. 아래 **Releases**에서 `SubDock-Installer.dmg` 다운로드
-2. dmg를 열고 **SubDock을 응용 프로그램 폴더로 드래그**
-3. 응용 프로그램에서 SubDock을 **우클릭 → 열기** (더블클릭 아님!)
-   - "확인되지 않은 개발자" 경고가 뜨면 **열기** 클릭
-   - ⚠️ 이 앱은 애플 공증을 받지 않아 첫 실행 시 경고가 뜹니다. 정상이며, 우클릭 열기로 실행됩니다
-4. **시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용**에서 SubDock 허용
-   (창 이동 기능에 필요합니다)
+1. Download `SubDock-Installer.dmg` from **Releases** below
+2. Open the dmg and **drag SubDock into your Applications folder**
+3. In Applications, **right-click SubDock → Open** (not double-click!)
+   - If you see an "unidentified developer" warning, click **Open**
+   - ⚠️ This app isn't notarized by Apple, so the first launch shows a warning. This is expected — right-click → Open runs it.
+4. Grant access in **System Settings → Privacy & Security → Accessibility** for SubDock
+   (required for the window-move feature)
 
-## 요구사항
+## Requirements
 
-- macOS 11 (Big Sur) 이상
-- Apple Silicon(M1~) 또는 Intel 맥
+- macOS 11 (Big Sur) or later
+- Apple Silicon (M1+) or Intel Mac
 
-## 사용법
+## How to use
 
-- 서브 모니터 오른쪽 가장자리의 **파란 탭에 마우스**를 올리면 앱 목록이 펼쳐집니다
-- 원하는 앱을 클릭하면 해당 앱이 서브 모니터로 전환됩니다
-- 메뉴바의 SubDock 아이콘을 클릭해 **표시할 앱을 고정/추가**하세요
+- Hover the **handle on the edge** of your sub monitor to reveal the app list
+- Click an app to switch to it and bring its window onto the sub monitor
+- Click the SubDock **menu-bar icon** to pin/add apps and change the handle style or position
 
-## 문의 · 피드백
+## Feedback
 
-버그 제보나 기능 제안은 [Issues](../../issues)에 남겨주세요.
+Found a bug or have a feature idea? Please open an [Issue](../../issues).
 
-## 후원 ☕
+## Support ☕
 
-무료로 배포되는 앱입니다. 잘 쓰고 계시다면 커피 한 잔으로 응원해주세요!
-(메뉴바 → "개발자에게 커피 한 잔 ☕")
+SubDock is free. If you find it useful, a coffee is always appreciated — an international support option is coming soon.
 
 ---
 
