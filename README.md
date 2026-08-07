@@ -28,6 +28,9 @@ When your main display is occupied by a game console (PS5 and other HDMI inputs)
 - **Universal** — works on both Intel and Apple Silicon
 - Runs quietly from the menu bar, starts at login
 
+> **Note:** macOS **Finder** doesn't expose its windows to third-party apps (it's the system file manager),
+> so SubDock can't move Finder to the sub monitor — it only brings Finder forward. Third-party file managers work normally.
+
 ## Install
 
 1. Download `SubDock-Installer.dmg` from **Releases** below
