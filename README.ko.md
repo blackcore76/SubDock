@@ -2,7 +2,7 @@
 
 **[English](README.md) · 한국어**
 
-![SubDock](hero.png)
+![SubDock 데모](demo-readme-kr.gif)
 
 **서브 모니터만으로 앱을 전환하고, 창을 그 화면으로 불러오는 맥 유틸리티**
 

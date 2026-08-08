@@ -2,7 +2,7 @@
 
 **English · [한국어](README.ko.md)**
 
-![SubDock](hero-en.png)
+![SubDock demo](demo-readme-en.gif)
 
 **A menu-bar utility that switches apps and pulls their windows onto your second monitor — using the sub monitor alone.**
 
